@@ -30,25 +30,21 @@ const Tasks = () => {
                         showsHorizontalScrollIndicator={false}>
                         <ScrollItem  
                             image={require('../assets/graphtwo.png')}
-                            title="Excercise"
-                            month = "Sep - Nov"
+                            title="Exercise"
                             animation = "bounceInLeft"
                             completed="1"
                             total="10"
                             backgroundColor="#DE881E"
                             color="#fff"
-                            animation = "bounceInLeft"
                             />
                         <ScrollItem 
                             image={require('../assets/graphtwo.png')}
                             title="Healthy Diet"
-                            month = "Jan - Feb"
                             animation = "bounceInLeft"
                             completed="5"
                             total="10"
                             backgroundColor="#1BC77A"
                             color="#fff"
-                            animation = "bounceInLeft"
                              />
                         <ScrollItem  
                                 image={require('../assets/graphthree.png')}
